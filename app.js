@@ -49,6 +49,8 @@ allSections.forEach(function (sec) {
     // build the nav
     liList.appendChild(sectionLink);
     ulList.appendChild(liList);
+
+  
 });
 
 // Scroll to anchor ID using scrollTO event
