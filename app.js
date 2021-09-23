@@ -40,7 +40,7 @@ allSections.forEach(function (sec) {
     sectionLink.addEventListener('click', function (evt) {
         evt.stopPropagation();
         evt.preventDefault();
-        sec.scrollIntoView(true);
+        sec.scrollIntoView({behavior:"smooth"});
     });
 
     sectionLink.innerHTML = sec.getAttribute('data-nav');
@@ -84,6 +84,26 @@ window.addEventListener('scroll', function (evt) {
     });
 
 });
+
+//Responsive Navbar
+
+
+window.addEventListener('click',function ()
+{
+    if(ulList.className ==="responsiveMenu" )
+    {
+        ulList.className="";
+    }
+    else
+    {
+        ulList.className ="responsiveMenu";
+
+    }
+
+});
+
 /**
+ * 
+ * 
  * End Main Functions
 */

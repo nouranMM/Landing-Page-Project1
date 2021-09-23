@@ -1,27 +1,43 @@
-#Landing Page Project
------------------------------------
-The Structure:
+# Landing Page Project
 
-My Landing Page have the structure that Udasity want:
-1. HTML File ----- index.html.
-2. Javascript File ----- app.js
-3. CSS File ----- style.css
-4. Readme.md.
+It is a main page that can be used as a landing page, and it has a dynamic navigation.
 
-- I make the landing page with at least 4 sections.
-- I build the navigation bar in app.js file dynamically as an unordered list. Start with empty <ul> and build dynamically navigation and <li> and <a> inside each <li> using forEach, append, appendChild, and innerHTML and with a dynamically updating navigational menu based on the amount of content that is added to the page.
-- I make the page can scroll by scrollIntoView() function by searching on internet and I found it on MDN
-https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView 
-and getBoundingClientRect()
-https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+Therefore you can  add a new section  to the main HTML page **index.html**  and it will be added to  the  **navigation bar** automatically.
 
-- I made each section is active.
-- I made some changes in style.css file to change colors.
+When the user clicks on a navigation item, the item scroll you to the appropriate section and make a highlight color on it.
 
-- Comments are present and effectively explain longer code procedures.
+### Project Structure:
+---
 
-- Code is formatted with consistent, logical, and easy-to-read formatting.
+1. **HTML File**
+ * index.html
+2. **Javascript File**
+ * app.js
+3. **CSS File**
+ * styles.css
+4. Readme.md
 
-- At the end,i hope that my project was implemented correctly and according to your expectations.
 
-Nouran Mahmoud Madkour
+### Instructions:
+---
+
+1. Download the project locally
+2. Open  the page **index.html**
+3. To add section edit the  **index.html**  and add a new section.
+4. Then click on  any section and scroll.
+
+### Technologies:
+---
+HTML  , CSS , Javascript.
+
+### More Information:
+---
+[MDN Website](https://developer.mozilla.org/en-US/docs/Web "MDN Website")
+
+[W3shools](https://www.w3schools.com/ "W3shools")
+
+### Licence:
+---
+Landing Page project is created by **Nouran Mahmoud Madkour** &copy;2021.
+
+It is used for personal and commercial use.
